@@ -28,6 +28,20 @@
     "href": "https://hyperframes.heygen.com/introduction"
   },
   "favicon": "/favicon.svg",
+  "seo": {
+    "indexing": "navigable",
+    "metatags": {
+      "og:site_name": "HyperFrames",
+      "og:locale": "en_US",
+      "og:image": "https://hyperframes.heygen.com/public/images/og-default.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "HyperFrames — write HTML, render video.",
+      "twitter:card": "summary_large_image",
+      "twitter:image": "https://hyperframes.heygen.com/public/images/og-default.png",
+      "twitter:image:alt": "HyperFrames — write HTML, render video."
+    }
+  },
   "contextual": {
     "options": [
       "copy",
@@ -1155,67 +1169,83 @@
   "redirects": [
     {
       "source": "/guides",
-      "destination": "/introduction"
+      "destination": "/introduction",
+      "permanent": true
     },
     {
       "source": "/showcase",
-      "destination": "/examples"
+      "destination": "/examples",
+      "permanent": true
     },
     {
       "source": "/launch-videos",
-      "destination": "/examples"
+      "destination": "/examples",
+      "permanent": true
     },
     {
       "source": "/guides/claude-design",
-      "destination": "/guides/design-tools"
+      "destination": "/guides/design-tools",
+      "permanent": true
     },
     {
       "source": "/guides/open-design",
-      "destination": "/guides/design-tools"
+      "destination": "/guides/design-tools",
+      "permanent": true
     },
     {
       "source": "/guides/common-mistakes",
-      "destination": "/guides/troubleshooting"
+      "destination": "/guides/troubleshooting",
+      "permanent": true
     },
     {
       "source": "/guides/create-with-agent",
-      "destination": "/workflows"
+      "destination": "/workflows",
+      "permanent": true
     },
     {
       "source": "/guides/choose-your-path",
-      "destination": "/workflows"
+      "destination": "/workflows",
+      "permanent": true
     },
     {
       "source": "/guides/help",
-      "destination": "/help"
+      "destination": "/help",
+      "permanent": true
     },
     {
       "source": "/guides/project-tour",
-      "destination": "/concepts"
+      "destination": "/concepts",
+      "permanent": true
     },
     {
       "source": "/guides/media-overlays",
-      "destination": "/catalog"
+      "destination": "/catalog",
+      "permanent": true
     },
     {
       "source": "/guides/common-questions",
-      "destination": "/help"
+      "destination": "/help",
+      "permanent": true
     },
     {
       "source": "/contributing/studio-manual-dom-editing",
-      "destination": "/studio/canvas"
+      "destination": "/studio/canvas",
+      "permanent": true
     },
     {
       "source": "/guides/video-editor-cheatsheet",
-      "destination": "/studio/shortcuts"
+      "destination": "/studio/shortcuts",
+      "permanent": true
     },
     {
       "source": "/guides/timeline-editing",
-      "destination": "/studio/timeline"
+      "destination": "/studio/timeline",
+      "permanent": true
     },
     {
       "source": "/guides/website-to-video",
-      "destination": "/guides/product-launch-video"
+      "destination": "/guides/product-launch-video",
+      "permanent": true
     },
     {
       "source": "/guides/prompting",
